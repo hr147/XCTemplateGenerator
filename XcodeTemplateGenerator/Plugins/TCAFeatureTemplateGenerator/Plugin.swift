@@ -6,9 +6,15 @@ struct TCAFeatureTemplateGenerator: CommandPlugin {
     let fileManager = FileManager.default
 
     func performCommand(context: PackagePlugin.PluginContext, arguments: [String]) async throws {
+        print("\n========Start generating TCA Feature template 🚀🚀🚀=============\n")
+        
+        print("Current Path: ", fileManager.currentDirectoryPath)
+        
         try fileManager.createDirectoryIfNeeded(atDirectory: .templates)
 
         try fileManager.copyOrReplace(atPath: .source, toPath: .template)
+        
+        print("\n========TCA Feature template successfully created 🎉🎉🎉=======\n")
     }
 }
 
