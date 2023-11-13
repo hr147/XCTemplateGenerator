@@ -12,7 +12,7 @@ public struct ___VARIABLE_FEATURENAME___View: View {
 
     public var body: some View {
         WithViewStore(store) { $0 } content: { viewStore in
-            ForEach(viewStore.rows) { row in
+            List(viewStore.rows) { row in
                 Text(row.title)
             }
             .onAppear {
