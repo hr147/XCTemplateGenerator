@@ -10,4 +10,7 @@
    <FileRef
       location = "group:XcodeTemplateGenerator">
    </FileRef>
+   <FileRef
+      location = "group:TCAFeaturePreview/TCAFeaturePreview.xcodeproj">
+   </FileRef>
 </Workspace>
