@@ -1,7 +1,7 @@
 # XCTemplateGenerator
 
-This plugin generate `xctemplate` as per your project sturcture and we can save time to setup basic structure of the project because it will create all The componsable architecture components .
-
+This SPM plugin simplifies the creation of TCA (The Composable Architecture) features, including all components like State, Action, and View. It automates the generation of xctemplate files according to the provided architecture structure. Editing the TCAFeature template is straightforward, thanks to its support for compilation and intelligence during the editing process. Customize your modular architecture effortlessly! 
+ 
 ## How to install custom template into Xcode
 
 1. Right click on the package `XcodeTemplateGenerator` and select `TCAFeatureTemplateGenerator`. 
@@ -20,6 +20,6 @@ XcodeTemplateGenerator/Templates
 ```
 
 ### Resources: 
-- [Download AFNetworking](https://www.cinnamon.agency/blog/post/creating_and_maintaining_xcode_templates)
-- [Download AFNetworking](https://github.com/crelies/TheComposableArchitecture-Xcode-Template)
+- [Creating and Maintaining Xcode Templates](https://www.cinnamon.agency/blog/post/creating_and_maintaining_xcode_templates)
+- [TheComposableArchitecture-Xcode-Template](https://github.com/crelies/TheComposableArchitecture-Xcode-Template)
 
