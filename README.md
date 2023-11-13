@@ -22,4 +22,5 @@ XcodeTemplateGenerator/Templates
 ### Resources: 
 - [Creating and Maintaining Xcode Templates](https://www.cinnamon.agency/blog/post/creating_and_maintaining_xcode_templates)
 - [TheComposableArchitecture-Xcode-Template](https://github.com/crelies/TheComposableArchitecture-Xcode-Template)
+- [Create Swift Package plugins](https://developer.apple.com/videos/play/wwdc2022/110401/)
 
