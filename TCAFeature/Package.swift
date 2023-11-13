@@ -5,8 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "TCAFeature",
+    defaultLocalization: "de",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v15),
         .macOS(.v13),
         .tvOS(.v13),
         .watchOS(.v6),

@@ -12,8 +12,11 @@ public struct ___VARIABLE_FEATURENAME___View: View {
 
     public var body: some View {
         WithViewStore(store) { $0 } content: { viewStore in
-            List(viewStore.rows) { row in
-                Text(row.title)
+            NavigationView {
+                List(viewStore.rows) { row in
+                    Text(row.title)
+                }
+                .navigationTitle(Text("Screen_Title", bundle: .module))
             }
             .onAppear {
                 viewStore.send(.onAppear)

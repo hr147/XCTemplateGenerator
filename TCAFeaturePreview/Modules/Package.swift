@@ -5,8 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Modules",
+    defaultLocalization: "de",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(name: "DefaultFeature", targets: ["DefaultFeature"]),
